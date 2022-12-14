@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Checkbox">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/from"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Who is paying"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/amt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Amount"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:hint="Brief description of the purpose"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <CheckBox
+            android:id="@+id/person1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="shreya123@gmail.com           Shreya"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/person2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aditya12340@gmail.com        Aditya "
+            android:layout_marginLeft="20dp"
+            />
+
+        <CheckBox
+            android:id="@+id/person3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rahul345@gmail.com              Rahul"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id="@+id/person4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kriti129@gmail.com               Kriti"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id="@+id/person5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kanishk346@gmail.com         Kanishk"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id="@+id/person6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abhisek345@gmail.com        Abhishek"
+            android:layout_marginLeft="20dp"/>
+        <CheckBox
+            android:id="@+id/person7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="anish3410@gmail.com           Anish"
+            android:layout_marginLeft="20dp"/>
+        <CheckBox
+            android:id="@+id/person8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abhijeet3410@gmail.com      Abhijeet"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show cost per person"
+            android:layout_marginHorizontal="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:theme="@style/Theme.Material3.DynamicColors.Dark"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
